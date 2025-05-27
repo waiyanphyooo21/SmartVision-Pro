@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartVision Pro - Next-Gen Smart Glasses</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">SmartVision Pro</div>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="cta-button">Pre-order Now</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>Experience the Future of Vision</h1>
+                <p>SmartVision Pro combines cutting-edge AR technology with elegant design to revolutionize how you see
+                    and interact with the world.</p>
+                <div class="hero-buttons">
+                    <button class="primary-button">Pre-order Now</button>
+                    <button class="secondary-button">Watch Demo</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/AR_Image1.jpg" alt="SmartVision Pro Glasses">
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Revolutionary Features</h2>
+            <div class="features-grid"
+                style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; height: 300px;">
+                <div class="feature-card"
+                    style="height: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 20px; background: #f8f9fa; border-radius: 10px; transition: transform 0.3s ease;">
+                    <i class="fas fa-eye" style="font-size: 2.5rem; margin-bottom: 15px; color: #007bff;"></i>
+                    <h3>AR Display</h3>
+                    <p>High-resolution AR display with 120° field of view for immersive experiences.</p>
+                </div>
+                <div class="feature-card"
+                    style="height: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 20px; background: #f8f9fa; border-radius: 10px; transition: transform 0.3s ease;">
+                    <i class="fas fa-microphone" style="font-size: 2.5rem; margin-bottom: 15px; color: #007bff;"></i>
+                    <h3>Voice Control</h3>
+                    <p>Advanced voice recognition for hands-free operation and navigation.</p>
+                </div>
+                <div class="feature-card"
+                    style="height: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 20px; background: #f8f9fa; border-radius: 10px; transition: transform 0.3s ease;">
+                    <i class="fas fa-battery-full" style="font-size: 2.5rem; margin-bottom: 15px; color: #007bff;"></i>
+                    <h3>All-Day Battery</h3>
+                    <p>Up to 12 hours of continuous use with rapid charging technology.</p>
+                </div>
+                <div class="feature-card"
+                    style="height: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 20px; background: #f8f9fa; border-radius: 10px; transition: transform 0.3s ease;">
+                    <i class="fas fa-camera" style="font-size: 2.5rem; margin-bottom: 15px; color: #007bff;"></i>
+                    <h3>4K Camera</h3>
+                    <p>Built-in 4K camera for capturing memories and scanning documents.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <style>
+        @media screen and (max-width: 1200px) {
+            .features-grid {
+                grid-template-columns: repeat(2, 1fr) !important;
+                height: auto !important;
+            }
+
+            .feature-card {
+                height: 250px !important;
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            .features-grid {
+                grid-template-columns: 1fr !important;
+                height: auto !important;
+            }
+
+            .feature-card {
+                height: 200px !important;
+            }
+
+            .footer-bottom {
+                flex-direction: column;
+                text-align: center;
+                gap: 10px;
+                padding: 15px 0;
+            }
+
+            .creator-credit {
+                font-size: 0.85rem;
+            }
+
+            .footer-bottom p {
+                margin: 0;
+            }
+
+            .contact-box {
+                flex-direction: column !important;
+                margin: 0 15px;
+            }
+
+            .contact-form,
+            .contact-info {
+                padding: 25px !important;
+            }
+
+            .contact-info {
+                border-top: 1px solid #ddd;
+            }
+
+            .form-group {
+                margin-bottom: 15px !important;
+            }
+
+            .info-item {
+                margin-bottom: 20px !important;
+            }
+
+            .submit-button {
+                width: 100% !important;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            .contact-box {
+                margin: 0 10px;
+            }
+
+            .contact-form,
+            .contact-info {
+                padding: 20px !important;
+            }
+
+            .info-item i {
+                font-size: 1.2rem !important;
+            }
+
+            .info-item p {
+                font-size: 0.9rem !important;
+            }
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .footer-bottom {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            margin-top: 20px;
+        }
+
+        .creator-credit {
+            font-size: 0.9rem;
+            color: #888;
+            font-style: italic;
+        }
+
+        .creator-credit a:hover {
+            color: #007bff;
+        }
+
+        .contact-box {
+            transition: all 0.3s ease;
+        }
+
+        .submit-button:hover {
+            background: #0056b3 !important;
+        }
+
+        input:focus,
+        textarea:focus {
+            outline: none;
+            border-color: #007bff !important;
+            box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+        }
+    </style>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2>Product Details</h2>
+            <div class="product-overview">
+                <div class="product-images">
+                    <div class="main-image">
+                        <img src="images/AR_Image2.jpg" alt="SmartVision Pro Front View">
+                    </div>
+                    <div class="thumbnail-grid">
+                        <img src="images/AR_Image2.jpg" alt="Front View" class="active">
+                        <img src="images/AR_Image3.jpg" alt="Side View">
+                        <img src="images/AR_Image4.jpg" alt="In Use">
+                        <img src="images/AR_Image5.jpg" alt="Accessories">
+                    </div>
+                </div>
+                <div class="product-specs">
+                    <h3>Technical Specifications</h3>
+                    <div class="specs-grid">
+                        <div class="spec-item">
+                            <h4>Display</h4>
+                            <ul>
+                                <li>120° Field of View</li>
+                                <li>4K Resolution per Eye</li>
+                                <li>90Hz Refresh Rate</li>
+                                <li>HDR Support</li>
+                            </ul>
+                        </div>
+                        <div class="spec-item">
+                            <h4>Performance</h4>
+                            <ul>
+                                <li>Custom AR Processor</li>
+                                <li>8GB RAM</li>
+                                <li>128GB Storage</li>
+                                <li>Wi-Fi 6 & Bluetooth 5.2</li>
+                            </ul>
+                        </div>
+                        <div class="spec-item">
+                            <h4>Camera & Sensors</h4>
+                            <ul>
+                                <li>4K Ultra HD Camera</li>
+                                <li>Depth Sensor</li>
+                                <li>6-DOF Tracking</li>
+                                <li>Eye Tracking</li>
+                            </ul>
+                        </div>
+                        <div class="spec-item">
+                            <h4>Battery & Charging</h4>
+                            <ul>
+                                <li>12-hour Battery Life</li>
+                                <li>Fast Charging (0-50% in 30min)</li>
+                                <li>USB-C Charging</li>
+                                <li>Wireless Charging Support</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="product-features">
+                        <h3>Key Features</h3>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Advanced AR Display Technology</li>
+                            <li><i class="fas fa-check"></i> Voice & Gesture Controls</li>
+                            <li><i class="fas fa-check"></i> Real-time Translation</li>
+                            <li><i class="fas fa-check"></i> Spatial Audio</li>
+                            <li><i class="fas fa-check"></i> Health & Fitness Tracking</li>
+                            <li><i class="fas fa-check"></i> Smart Home Integration</li>
+                        </ul>
+                    </div>
+                    <div class="product-included">
+                        <h3>What's Included</h3>
+                        <ul>
+                            <li><i class="fas fa-box"></i> SmartVision Pro Glasses</li>
+                            <li><i class="fas fa-charging-station"></i> Charging Dock</li>
+                            <li><i class="fas fa-cable"></i> USB-C Cable</li>
+                            <li><i class="fas fa-glasses"></i> Protective Case</li>
+                            <li><i class="fas fa-book"></i> User Manual</li>
+                            <li><i class="fas fa-shield-alt"></i> 1-Year Warranty</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>What Our Users Say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"SmartVision Pro has completely transformed how I work. The AR features are incredible!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/men/1.jpg" alt="John Doe">
+                        <div>
+                            <h4>John Doe</h4>
+                            <p>Tech Entrepreneur</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"The battery life is impressive, and the voice control works flawlessly."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/women/1.jpg" alt="Jane Smith">
+                        <div>
+                            <h4>Jane Smith</h4>
+                            <p>Digital Artist</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <h2>Choose Your Package</h2>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Basic</h3>
+                    <div class="price">$299</div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> AR Display</li>
+                        <li><i class="fas fa-check"></i> Voice Control</li>
+                        <li><i class="fas fa-check"></i> 8-hour Battery</li>
+                        <li><i class="fas fa-check"></i> 1080p Camera</li>
+                        <li><i class="fas fa-check"></i> Basic Support</li>
+                    </ul>
+                    <button class="pricing-button">Select Plan</button>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="popular-tag">Most Popular</div>
+                    <h3>Pro</h3>
+                    <div class="price">$499</div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Enhanced AR Display</li>
+                        <li><i class="fas fa-check"></i> Advanced Voice Control</li>
+                        <li><i class="fas fa-check"></i> 12-hour Battery</li>
+                        <li><i class="fas fa-check"></i> 4K Camera</li>
+                        <li><i class="fas fa-check"></i> Premium Support</li>
+                        <li><i class="fas fa-check"></i> Extended Warranty</li>
+                    </ul>
+                    <button class="pricing-button">Select Plan</button>
+                </div>
+                <div class="pricing-card">
+                    <h3>Enterprise</h3>
+                    <div class="price">Custom</div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Custom Solutions</li>
+                        <li><i class="fas fa-check"></i> Dedicated Support</li>
+                        <li><i class="fas fa-check"></i> API Access</li>
+                        <li><i class="fas fa-check"></i> Custom Features</li>
+                        <li><i class="fas fa-check"></i> Training Sessions</li>
+                        <li><i class="fas fa-check"></i> Priority Updates</li>
+                    </ul>
+                    <button class="pricing-button">Contact Sales</button>
+                </div>
+            </div>
+            <div class="pricing-features">
+                <h3>All Plans Include</h3>
+                <div class="features-grid">
+                    <div class="feature-item">
+                        <i class="fas fa-sync"></i>
+                        <span>Free Software Updates</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>Security Updates</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-headset"></i>
+                        <span>24/7 Support</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <div class="contact-box">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>123 Innovation Street, Tech City, TC 12345</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+1 (555) 123-4567</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>info@smartvisionpro.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">SmartVision Pro</div>
+                <div class="footer-links">
+                    <a href="#features">Features</a>
+                    <a href="#gallery">Gallery</a>
+                    <a href="#testimonials">Testimonials</a>
+                    <a href="#pricing">Pricing</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 SmartVision Pro. All rights reserved.</p>
+                <p class="creator-credit">Created by <a href="https://github.com/waiyanphyooo21" target="_blank">Derek
+                        Valeska</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
