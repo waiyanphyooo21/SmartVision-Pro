@@ -2,7 +2,7 @@
 
 A modern, responsive landing page for SmartVision Pro - Next-Generation Smart Glasses. This project showcases a fictional AR smart glasses product with a sleek design and interactive features.
 
-![SmartVision Pro](images/AR_Image1.jpg)
+![SmartVision Pro](images/preview.png)
 
 ## 🚀 Features
 
