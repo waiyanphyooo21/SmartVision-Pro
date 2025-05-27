@@ -2,6 +2,12 @@
 
 A modern, responsive landing page for SmartVision Pro - Next-Generation Smart Glasses. This project showcases a fictional AR smart glasses product with a sleek design and interactive features.
 
+## 🌐 Live Demo
+
+🔗 [View Website](https://waiyanphyooo21.github.io/SmartVision-Pro/)
+
+## 📸 Screenshots
+
 ![SmartVision Pro](images/preview.png)
 
 ## 🚀 Features
@@ -83,19 +89,17 @@ Shop/
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👥 Authors
-
-- Your Name - Initial work
-
 ## 🙏 Acknowledgments
 
 - Font Awesome for the icons
 - Google Fonts for the typography
 - RandomUser API for testimonial images
 
-## 📞 Contact
+## 📬 Contact
 
-For any queries, please reach out to:
-- Email: info@smartvisionpro.com
-- Phone: +1 (555) 123-4567
-- Address: 123 Innovation Street, Tech City, TC 12345 
+- Email: dm@waiyanphyooo.online
+- GitHub: [@waiyanphyooo21](https://github.com/waiyanphyooo21)
+
+## ⭐️ Show Your Support
+
+If you like this project, consider giving it a ⭐️ on [GitHub](https://waiyanphyooo21.github.io/SmartVision-Pro/)!
